@@ -1,3 +1,15 @@
-/* TODO: Style the product card container */
+.card {
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 8px;
+  width: 200px;
+  background-color: #fff;
+  transition: box-shadow 0.3s ease;
+}
 
-/* TODO: Add special styling for out-of-stock products */
+/* Global class for testing (matched in ProductCard.jsx) */
+:global(.outOfStockClass) {
+  background-color: #f8f8f8;
+  opacity: 0.6;
+  border: 1px dashed #999;
+}
